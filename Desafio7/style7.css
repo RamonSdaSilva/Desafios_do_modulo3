@@ -1,0 +1,92 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #1a9ebe;
+}
+  
+    .container {
+        margin-top: 80px;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+    h1 {
+        margin-bottom: 10px;
+}
+  
+  form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+}
+
+    label {
+        font-weight: bold;
+}
+  
+    input {
+        padding: 8px;
+        width: 100%;
+}
+  
+    button {
+        padding: 8px 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+}
+  
+    button:hover {
+        background-color: #0056b3;
+}
+
+    .tabela{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        box-shadow: 0 0 120px rgba(0, 0, 0, 0.15);
+        text-align: center;
+}
+
+    .tabela thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+}
+  
+    .tabela th{
+        padding: 20px 100px;
+}
+    .tabela td{
+        padding: 1px 1px;
+    }
+
+    .tabela tbody tr {
+        border-bottom: 1px solid white;
+}
+
+    .tabela tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+}
+
+    .tabela tbody tr:last-of-type {
+        border-bottom: 3px solid #009879;
+}
+
+    .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
+}
+

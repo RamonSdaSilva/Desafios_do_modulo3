@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Objetos</title>
+  <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Lista de Objetos</h1>
+      <form id="objetoForm">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+        <label for="data">Data:</label>
+        <input type="date" id="data" required>
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" rows="4" required></textarea>
+        <button type="submit">Adicionar Objeto</button>
+      </form>
+      <p>Quantidade de objetos: <span id="contador">0</span></p>
+      <div id="cardsContainer"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

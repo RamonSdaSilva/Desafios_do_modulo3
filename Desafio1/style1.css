@@ -1,0 +1,28 @@
+body {
+    background-image: url("fotos/foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #214ab9;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#botao:hover{
+    background-color: #2149b9b7;
+    transition: 0.5s;
+}

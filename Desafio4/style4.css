@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgba(15, 152, 170, 0.925);
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(22, 22, 22, 0.712);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo {
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(105, 76, 212);
+    transition: all 1.5s ease; 
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
+}
+
+footer {
+	background-color:  rgba(22, 22, 22, 0.712);
+	color: #ebebeb;
+	padding: 15px;
+	text-align: center;
+	margin-top: 50px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.video{
+    text-align: center;
+}
+.section {
+    width: 100vw;
+    height: 80vh;
+    color: #000000;
+}
+
+.formato{
+    width: 800px;
+    text-align: justify;
+    color: #000000;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 40px;
+}

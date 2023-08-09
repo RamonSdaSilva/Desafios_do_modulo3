@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.container {
+    width: 39%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scroll {
+    display: inline-flex;
+}
+
+.scroll img {
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    margin: 0 10px;
+}
